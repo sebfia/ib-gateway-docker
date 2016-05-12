@@ -1,0 +1,10 @@
+version: '2'
+services:
+  ib_gateway_installer:
+    build: .
+    image: sebfia/ib_gateway_installer
+    container_name: gateway_installer
+    environment:
+      - "VNC_PASSWORD=password"
+    ports:
+      - "5900:5900"

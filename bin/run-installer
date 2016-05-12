@@ -1,0 +1,4 @@
+#!/bin/bash
+cd /root/Jts/ibgateway/952
+xvfb-daemon-run \
+  ./ibgateway
