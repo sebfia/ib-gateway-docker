@@ -1,9 +1,9 @@
 version: '2'
 services:
-  ib_gateway_installer:
+  ib-gateway-stable:
     build: .
     image: sebfia/ib-gateway-stable
-    container_name: gateway_stable
+    container_name: gateway-stable
     environment:
       - "VNC_PASSWORD=password"
     ports:
